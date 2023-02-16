@@ -1,26 +1,26 @@
-# Setup Docker For Laravel (5, 6, 7 and 8)
-Simple setup Docker, for Laravel aplications.
+# Configuração do Docker para Laravel (5, 6, 7 e 8)
+Docker de configuração simples, para aplicações Laravel.
 
 
-## Up Containers
+## Containers
 ```console
 docker-compose up -d nginx mysql phpmyadmin redis
 ```
 
 
-## Run comands:
+## Execute os comandos:
 ```console
 docker-compose exec workspace bash
 ```
 
 ```console
-cd project/
+projeto cd/
 ```
 
 ```console
-php artisan comand
+comando do artesão php
 ```
 
 
 ### Ref:
-This setup is inspired in [laradock](https://github.com/laradock/laradock)
+Esta configuração é inspirada em [laradock](https://github.com/laradock/laradock)
